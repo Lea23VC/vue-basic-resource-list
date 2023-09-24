@@ -66,6 +66,7 @@ export default {
       }
 
       const newResource = {
+        id: Math.random().toString(),
         title: enteredTitle,
         description: enteredDescription,
         link: enteredLink,
