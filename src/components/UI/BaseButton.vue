@@ -1,9 +1,7 @@
 <template>
-  <div>
-    <button :class="mode">
-      <slot>{{ label }}</slot>
-    </button>
-  </div>
+  <button :class="mode">
+    <slot>{{ label }}</slot>
+  </button>
 </template>
 
 <script>

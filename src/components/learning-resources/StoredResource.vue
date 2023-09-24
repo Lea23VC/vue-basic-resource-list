@@ -14,7 +14,7 @@ export default {
   components: {
     'learning-resource': LearningResource,
   },
-  props: {
+  inject: {
     resources: {
       type: Array,
       required: true,
