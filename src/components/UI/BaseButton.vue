@@ -1,16 +1,12 @@
 <template>
   <button :class="mode">
-    <slot>{{ label }}</slot>
+    <slot></slot>
   </button>
 </template>
 
 <script>
 export default {
   props: {
-    label: {
-      type: String,
-      required: true,
-    },
     type: {
       type: String,
     },
